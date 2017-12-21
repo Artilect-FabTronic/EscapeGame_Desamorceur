@@ -19,7 +19,7 @@ int analog1 = 1; // pin sur laquelle est connectee le 000
 int val1 = 0;
 int analog2 = 2; // pin sur laquelle est connectee l'arret du decompteur
 int val2 = 0;
-// int analog3 = 3; // pin sur laquelle est connectee
+// int analog3 = 3; // pin sur laquelle est connectee un nouveau fil à couper...
 // int val3 = 0;
 
 boolean accel = false; // la variable d'accelération
