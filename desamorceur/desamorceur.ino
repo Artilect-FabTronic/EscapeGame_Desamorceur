@@ -13,7 +13,7 @@
 #include "SevSeg.h"
 
 SevSeg sevseg; // Instantiate a seven segment controller object
-int analog0 = 0; // pin sur laquelle est connectee l accelerateur
+int analog0 = 0; // pin sur laquelle est connectee l'accelerateur
 int val0 = 0;
 int analog1 = 1; // pin sur laquelle est connectee le 000
 int val1 = 0;
@@ -22,9 +22,9 @@ int val2 = 0;
 // int analog3 = 3; // pin sur laquelle est connectee
 // int val3 = 0;
 
-boolean accel = false;
-boolean indicstop = false;
-boolean indicarret = false;
+boolean accel = false; // la variable d'accelération
+boolean indicstop = false; // si vrai le chronometre passe à zéro et la partie est perdu
+boolean indicarret = false; // indicateur de l'arret du chronometre, la partie est gagnée 
 
 void setup() {
   byte numDigits = 4; // nombre d'afficheur 7 segments (ici 4 digits = 1234)
