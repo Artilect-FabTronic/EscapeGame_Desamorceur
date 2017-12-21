@@ -19,7 +19,7 @@ Basé sur un Arduino, un afficheur 7 segments et quelques résistances
 
 * 1 carte Arduino Uno
 * 1 buzzer
-* 1 afficheur 4 digits 7 segments
+* 1 afficheur 4 digits 7 segments (ici un TIL373, mais n'importe quel afficheur à cathode commune conviendra, [exemple](https://www.gotronic.fr/art-afficheur-7-segments-jaunes-4-digits-20371.htm))
 * 2 dominos 4 contacts
 
 ### Dépendences
